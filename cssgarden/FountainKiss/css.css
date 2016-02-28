@@ -3,6 +3,7 @@ body {
 	background: url("img/kiss.png") fixed;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-size: cover;
 }
 @font-face {
     font-family: Ultra; 
@@ -28,7 +29,7 @@ body {
 	margin: 76px 0px 0px 0px;
 }
 .left-content {
-	width: 35px;
+/*	width: 35px;*/
 	color: white;
 	font-size: 60px;
 	margin: -9px 0px 0px -10px;
@@ -39,12 +40,15 @@ body {
 	word-wrap: break-word;
 	font-family: 'Ultra';
 	font-weight: normal;
+	width: 75px;    
+	padding-left: 10px;
 }
 .central-container {
 	width: 660px;
 	margin: -76px 0px 0px 200px;
 	background: url("img/kisslight.png") fixed no-repeat;
 	padding: 30px 0px 0px 0px;
+	background-size: cover;
 }
 .image1 {background: url("img/story.gif") 550px 200px no-repeat fixed;}
 .image2 {background: url("img/story.gif") -450px 200px no-repeat fixed;}
@@ -467,7 +471,7 @@ span.dropcaps {
 	color: white;
 	text-shadow: 0 0 4px rgba(68,0,32,0.6);
 }
-.bann {margin: 8px 0px 0px 144px;}
+.bann {margin: 8px 0px 0px 118px;}
 .rubric-b {
 	margin: 17px 0px 0px 70px;
 	width: 352px;
