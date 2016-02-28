@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url("/font/OpenSans-Light.ttf");
+}
+/* line 5, ../sass/style.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font: 100%/1.5em 'OpenSans-Light';
+}
+
+/* line 12, ../sass/style.scss */
+h1, h2, h4 {
+  margin-bottom: 4%;
+}
+
+/* line 16, ../sass/style.scss */
+h1 {
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+/* line 23, ../sass/style.scss */
+h2 {
+  color: #60798F;
+  font-size: 19px;
+  margin: 33px 0px 0px 2px;
+}
+
+/* line 28, ../sass/style.scss */
+h4 {
+  color: #9CB1BF;
+  font-size: 16.5px;
+  margin: 7px 0px 0px 2px;
+}
+
+/* line 33, ../sass/style.scss */
+p {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  margin: 0px 0px 0px 1px;
+}
+
+/* line 41, ../sass/style.scss */
+ul {
+  padding-left: 26px;
+  margin: 5px 0px 0px -7px;
+}
+
+/* line 45, ../sass/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 48, ../sass/style.scss */
+.header {
+  background-color: #2B4967;
+  color: #FFFFFF;
+  height: 56px;
+  box-sizing: border-box;
+  padding-top: 12px;
+}
+
+/* line 55, ../sass/style.scss */
+.imgFloat {
+  width: 24px;
+  height: 24px;
+  float: left;
+  box-sizing: border-box;
+  margin: 4px 0px 0px 4px;
+}
+
+/* line 62, ../sass/style.scss */
+.pHeader {
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 21px;
+  margin: 8px 27px 0px 0px;
+}
+
+/* line 68, ../sass/style.scss */
+.wrapper {
+  margin: 5px 12px 0px 12px;
+}
+
+/* line 71, ../sass/style.scss */
+.img {
+  margin-top: 8px;
+  width: 100%;
+}
+
+/* line 75, ../sass/style.scss */
+.appsStudio {
+  margin: 17px 0px 9px 2px;
+  font-size: 21px;
+  font-weight: bold;
+  color: #223D58;
+}
+
+/* line 81, ../sass/style.scss */
+.holdingAppstudioGroup {
+  margin: 28px 0px 0px 1px;
+  font-size: 16px;
+}
+
+/* line 85, ../sass/style.scss */
+.ul_margin_li {
+  margin: 4px 0px 0px 0px;
+}
+
+/* line 88, ../sass/style.scss */
+.after_ul_text {
+  margin: 32px 0px 17px 1px;
+}
+
+/* line 91, ../sass/style.scss */
+.socialNetworks {
+  background-color: #FFFFFF;
+  color: #375E86;
+  border: 1px #223D58 solid;
+  border-radius: 3px;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 0px 8px 60px;
+  margin-top: 5px;
+}
+
+/* line 102, ../sass/style.scss */
+.icon {
+  float: left;
+  box-sizing: border-box;
+  margin: 4px 0px 0px -30px;
+  height: 100%;
+}
+
+/* line 108, ../sass/style.scss */
+.nameButton {
+  margin: 3px 46px 0px 0px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+/* line 114, ../sass/style.scss */
+.appsstudio {
+  margin-bottom: 20px;
+}

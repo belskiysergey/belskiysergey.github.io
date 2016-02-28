@@ -1,0 +1,125 @@
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('/font/OpenSans-Light.ttf');
+} 
+html, body {
+    margin: 0px 0px 17px 0px;
+    font: 100%/1.5em 'OpenSans-Light';
+    background: #203A55 url('/images/wireframe.png')50% 18px no-repeat;
+    background-size: 272px;
+}
+p {
+    margin: 30px 0px 35px 0px;
+    text-align: center;
+}
+a {
+    text-decoration: inherit;
+    color: #FFFFFF;
+}
+.action {
+    font-size: 26px;
+    width: 142px;
+    height: 46px;
+    box-sizing: border-box;
+    margin: 14px 0px 0px 0px;
+    padding: 8px 0px 0px 25px;
+    background-color: #F40850;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 47px solid #F40850;
+    border-right: 9px solid transparent;
+    margin: -47px 0px 0px 142px;	
+}
+.incline {}
+.stock {
+	text-decoration: inherit;
+    color: #FFFFFF;
+}
+.stock_size {
+	font-size: 30px;
+}
+.img {
+	transform: rotate(178deg);
+	position: absolute;
+}
+.prototypeFree {
+    width: 250px;
+    height: 52px;
+    background-color: #F40850;
+    margin: 117px 0px 0px 116px;
+    box-sizing: border-box;
+    padding: 15px 0px 0px 56px;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    display: block;
+    position: relative;
+}
+.free_margin {
+    width: 11%;
+    margin: -2px 0px 0px 5px;
+}
+.tile {
+	width: 100px;
+}
+.wrapper {
+	margin-top: 198px;
+}
+.center {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar {
+    width: 47%;
+    height: 170px;
+    background-color: #5F758A;
+    float: left;
+    margin: 0px 11px -17px 0px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+.sidebar_text {
+    margin-left: -16px;
+}
+.size_image_about_us {
+	width: 52%;
+}
+.about_us_text {
+    margin: 30px 0px 0px 7px;
+}
+.size_image_portfolio {
+    margin: -1px 0px 12px 3px;
+    width: 48%;
+}
+.sizeImageAboutUs {
+	width: 60px;
+    margin-left: 4px;
+}
+.sizeImagePortfolio {
+    width: 52px;
+    margin-left: 8px;
+}
+.sizeImageReady {
+    width: 50px;
+    margin-left: 5px;
+    margin-top: -4px;
+}
+.sizeImageBackCall {}
+.notFloat {
+	clear: both;
+}
+.text_align {
+    text-align: center;
+    margin: 16px 0px 0px 0px;
+}
+.lowerTile {
+    margin-left: 36px;
+    margin-right: 36px;
+}
+.topPlate {
+	margin-bottom: 30px;
+}

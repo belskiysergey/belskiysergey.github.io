@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url("/font/OpenSans-Light.ttf");
+}
+/* line 5, ../sass/style5.scss */
+html, body {
+  margin: 0px 0px 17px 0px;
+  font: 100%/1.5em 'OpenSans-Light';
+  background: #203A55 url("/images/wireframe.png") 50% 18px no-repeat;
+  background-size: 272px;
+}
+
+/* line 11, ../sass/style5.scss */
+p {
+  margin: 30px 0px 35px 0px;
+  text-align: center;
+}
+
+/* line 15, ../sass/style5.scss */
+a {
+  text-decoration: inherit;
+  color: #FFFFFF;
+}
+
+/* line 19, ../sass/style5.scss */
+.action {
+  font-size: 26px;
+  width: 142px;
+  height: 46px;
+  box-sizing: border-box;
+  margin: 14px 0px 0px 0px;
+  padding: 8px 0px 0px 25px;
+  background-color: #F40850;
+}
+
+/* line 28, ../sass/style5.scss */
+.triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 47px solid #F40850;
+  border-right: 9px solid transparent;
+  margin: -47px 0px 0px 142px;
+}
+
+/* line 36, ../sass/style5.scss */
+.stock {
+  text-decoration: inherit;
+  color: #FFFFFF;
+}
+
+/* line 40, ../sass/style5.scss */
+.stock_size {
+  font-size: 30px;
+}
+
+/* line 43, ../sass/style5.scss */
+.img {
+  transform: rotate(178deg);
+  position: absolute;
+}
+
+/* line 47, ../sass/style5.scss */
+.prototypeFree {
+  width: 250px;
+  height: 52px;
+  background-color: #F40850;
+  margin: 117px 0px 0px 116px;
+  box-sizing: border-box;
+  padding: 15px 0px 0px 56px;
+  font-size: 20px;
+  font-weight: bold;
+  float: right;
+  display: block;
+  position: relative;
+}
+
+/* line 60, ../sass/style5.scss */
+.free_margin {
+  width: 11%;
+  margin: -2px 0px 0px 5px;
+}
+
+/* line 64, ../sass/style5.scss */
+.tile {
+  width: 100px;
+}
+
+/* line 67, ../sass/style5.scss */
+.wrapper {
+  margin-top: 198px;
+}
+
+/* line 70, ../sass/style5.scss */
+.center {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 76, ../sass/style5.scss */
+.sidebar {
+  width: 47%;
+  height: 170px;
+  background-color: #5F758A;
+  float: left;
+  margin: 0px 11px -17px 0px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+/* line 85, ../sass/style5.scss */
+.sidebar_text {
+  margin-left: -16px;
+}
+
+/* line 88, ../sass/style5.scss */
+.size_image_about_us {
+  width: 52%;
+}
+
+/* line 91, ../sass/style5.scss */
+.about_us_text {
+  margin: 30px 0px 0px 7px;
+}
+
+/* line 94, ../sass/style5.scss */
+.size_image_portfolio {
+  margin: -1px 0px 12px 3px;
+  width: 48%;
+}
+
+/* line 98, ../sass/style5.scss */
+.sizeImageAboutUs {
+  width: 60px;
+  margin-left: 4px;
+}
+
+/* line 102, ../sass/style5.scss */
+.sizeImagePortfolio {
+  width: 52px;
+  margin-left: 8px;
+}
+
+/* line 106, ../sass/style5.scss */
+.sizeImageReady {
+  width: 50px;
+  margin-left: 5px;
+  margin-top: -4px;
+}
+
+/* line 112, ../sass/style5.scss */
+.notFloat {
+  clear: both;
+}
+
+/* line 115, ../sass/style5.scss */
+.text_align {
+  text-align: center;
+  margin: 16px 0px 0px 0px;
+}
+
+/* line 119, ../sass/style5.scss */
+.lowerTile {
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+/* line 123, ../sass/style5.scss */
+.topPlate {
+  margin-bottom: 30px;
+}

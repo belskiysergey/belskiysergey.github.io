@@ -1,0 +1,125 @@
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('/font/OpenSans-Light.ttf');
+} 
+html, body {
+	height: 100%;
+    width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font: 100%/1.5em 'OpenSans-Light';
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px 0px 0px 0px;
+}
+a {
+	text-decoration: none;
+}
+p {
+	margin: 0px 0px 0px 0px;
+	font-size: 15px;
+}
+p :before {
+    border-bottom: 1px #C5C5C5 solid;	
+}
+.header {
+	background-color: #2B4967;
+	color: #FFFFFF;
+	height: 56px;
+	margin-bottom: -56px;
+}
+.imgFloat {
+    float: left;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-left: 5px;
+}
+.pHeader {
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 17px;
+    font-size: 21px;
+    margin-right: 29px;
+}
+.content {
+    margin: 0px 8px 0px 8px;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 20%;
+    padding-top: 56px;
+}
+.nameCompany {
+    color: #C5C5C5;
+    margin-top: 38px;
+    margin-left: 4px;
+    border: 0;
+    border-bottom: 1px #C5C5C5 solid;
+    font-size: 19px;
+    font-family: 'OpenSans-Light';
+    padding-bottom: 10px;
+    width: 100%;
+}
+.communicationMethod {
+    color: #C5C5C5;
+    margin-top: 58px;
+    margin-left: -1px;
+    border: 0;
+    border-bottom: 1px #C5C5C5 solid;
+    font-size: 19px;
+    font-family: 'OpenSans-Light';
+    padding-bottom: 9px;
+    width: 100%;
+}
+.phoneNumber {
+    margin-left: 3px;
+    margin-top: 23px;
+    color: #C5C5C5;
+    border: 0;
+    border-bottom: 1px #C5C5C5 solid;
+    font-size: 19px;
+    font-family: 'OpenSans-Light';
+    padding-bottom: 11px;
+    width: 100%;
+}
+.addContact {
+	margin-top: 26px;
+    margin-left: 1px;
+    margin-bottom: 40px;
+}
+.circle {
+    border: 2px solid #2D4B69;
+    border-radius: 50% 50%;
+    width: 17px;
+    height: 17px;
+    margin: 9px 0px 0px 11px;
+    position: relative;
+}
+.circle:after {
+    content: '+';
+    position: absolute;
+    top: -3px;
+    left: 2.6px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.add {
+    color: #2E4C69;
+    font-size: 16px;
+    font-family: 'OpenSans-Light';
+    margin: -23px 0px 0px 46px;
+}
+.footer {
+    margin-top: -52px;
+}
+.button {
+    width: 100%;
+    background-color: #F40850;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 17px 0px 18px 0px;
+    margin-top: -59px;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,222 @@
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('/font/OpenSans-Light.ttf');
+} 
+html, body {
+	height: 100%;
+    width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font: 100%/1.5em 'OpenSans-Light';
+}
+h1 {
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 17px;
+    font-size: 21px;
+    margin: 0px 32px;
+}
+p {
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	padding-left: 5%;
+}
+.header {
+	background-color: #2B4967;
+	color: #FFFFFF;
+	height: 56px;
+}
+.imgFloat {
+	width: 24px;
+	height: 24px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-left: 2px;
+}
+.wrapper {
+    margin: 0px 8px 0px 8px;
+}
+.pinkColorText {
+    color: #F7447A;
+    margin: 19px 0px 7% 2px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.ul_wrapper {
+    padding-left: 10px;
+    margin-top: -22px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.wrapper .ul_wrapper li {
+	list-style-type: none;
+}
+.wrapper .ul_wrapper li:before {
+    content: '';
+    color: #87C598;
+    padding-right: 35px;
+    font-size: 22px;
+    background: url('/images/Shape.png');
+    background-repeat: no-repeat;
+    background-position-y: 13px;
+}
+.li_Assessment {
+	margin: 2px 0px 0px -1px;
+}
+.li_Commercial_Offer {
+	margin-top: 2px;
+    margin-left: 0px;
+}
+.li_Design_3_Screens {
+	margin-top: 3px;
+}
+.selectPlatform {
+    margin-top: 25px;
+}
+.labelFont {
+    font-size: 20px;
+    display: flex;
+    margin: 13px 0px 0px 6px;
+}
+.checkboxWrapper,
+.customCheckbox {
+    display: inline-block;
+    margin-right: 12px;
+}
+.checkboxWrapper input[type=checkbox] {
+    display: none;
+}
+.customCheckbox {
+    background: #EEEEEE;
+    width: 27px;
+    height: 27px;
+    border-radius: 2px;
+    position: relative;
+}
+input[type=checkbox]:checked + .customCheckbox:after {
+    content: ".";
+    color: #87C598;
+    font-size: 25px;
+    background: url('/images/Shape.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+}
+.optionalItems {
+    color: #2B4967;
+    margin-top: 25px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.hint {
+    color: #C5C5C5;
+    border: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px #C5C5C5 solid;
+    margin-bottom: 14px;
+    width: 100%;
+    margin-top: 22px;
+    margin-left: 0px;
+    font-size: 19px;
+}
+.p {
+    margin: -10px 0px 9px 2px;
+    font-size: 16px;
+    line-height: 23.5px;
+}
+.textarea {
+    width: 100%;
+    height: 238px;
+    background-color: #EEEEEE;
+    color: #C3C3C3;
+    font-size: 19px;
+    box-sizing: border-box;
+    padding: 14px 0px 0px 16px;
+    word-spacing: -5px;
+    margin-bottom: 12px;
+}
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 3%;
+    margin: 0px 5px 32px 2px;
+    background: #B2B2B2 url('/images/icon_ios_camera_filled.png') 50% 50% no-repeat;
+    background-size: 40px;
+}
+.analogue_margin {
+	margin-top: 20px;
+}
+.select {
+    margin-top: 20px;
+    margin-left: -4px;
+}
+.nameCompany {
+    margin-left: 0px;
+    margin-top: 19px;
+    margin-bottom: 21px;
+}
+.input_enter_name {
+    margin-top: 0px;
+    margin-bottom: -3px;
+    padding-bottom: 12px;
+}
+.communicationMethod {
+	margin-top: 5px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.choose {
+	margin-left: -4px;
+	margin-bottom: 5px;
+}
+.addContact {
+    margin: 4px 0px 0px -5px;
+}
+.circle {
+    border: 2px solid #2D4B69;
+    border-radius: 50% 50%;
+    width: 17px;
+    height: 17px;
+    margin: 2px 12px 0px 11px;
+    position: relative;
+    float: left;
+}
+.circle:after {
+    content: '+';
+    position: absolute;
+    top: -3px;
+    left: 2.6px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.add {
+    color: #2E4C69;
+    font-size: 16px;
+    font-family: 'OpenSans-Light';
+    font-weight: bold;
+}
+.markedFields {
+	margin: 65px 0px 0px 2px;
+    font-size: 16.5px;
+}
+.button {
+    width: 100%;
+    height: 50px;
+    background-color: #F40850;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 17px 0px 0px 0px;
+    margin-top: 39px;
+    display: block;
+    text-align: center;
+}
+
