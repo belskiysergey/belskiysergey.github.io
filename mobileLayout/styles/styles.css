@@ -122,7 +122,7 @@ ul {
     color: #87C598;
     padding-right: 48px;
     font-size: 22px;
-    background: url("/images/Shape.png");
+    background: url("../images/Shape.png");
     background-repeat: no-repeat;
     background-position-y: 13px;
 }
@@ -145,7 +145,7 @@ input[type=checkbox]:checked + .customCheckbox:after {
     content: "";
     color: #87C598;
     font-size: 25px;
-    background: url("/images/Shape.png");
+    background: url("../images/Shape.png");
     background-repeat: no-repeat;
     position: absolute;
     top: 5px;
@@ -183,7 +183,7 @@ input[type=checkbox]:checked + .customCheckbox:after {
     height: 100px;
     border-radius: 3%;
     margin: 0px 5px 20px 2px;
-    background: #B2B2B2 url("/images/icon_ios_camera_filled.png") 50% 50% no-repeat;
+    background: #B2B2B2 url("../images/icon_ios_camera_filled.png") 50% 50% no-repeat;
     background-size: 40px;
     float: left;
 }
