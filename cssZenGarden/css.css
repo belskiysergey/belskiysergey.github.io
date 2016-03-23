@@ -1,0 +1,91 @@
+html, body {
+	height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    font: 100%/1.5em Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+	font-weight: normal;
+	line-height: 1.4em;
+    color: #999999;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 50px;
+}
+a {
+	color: #6D2542;
+	text-decoration: none;
+}
+a:hover {
+	color: #999999;
+	text-decoration: underline;
+}
+h4 {
+font-weight: normal;
+}
+.wrapperHome {
+    margin: 0px auto;
+    width: 700px;
+    height: 2000px;
+    background-color: white;
+    background: url('images/rounded.png') no-repeat 0px 1660px;
+}
+.flower {
+	margin-left: -6px;
+}
+.download {
+    margin: -110px 0px 96px 288px;
+    padding-left: 15px;
+    font-size: 10px;
+    display: inline-block;
+    background: url("images/bullet.png") no-repeat 0% 30%;
+}
+.wrapperLeft {
+    width: 350px;
+    margin-left: 60px;
+    float: left;
+}
+.wrapperRight {
+    width: 180px;
+    height: 700px;
+    padding-left: 20px;
+    margin: 33px 0px 0px 450px;
+    background: url('images/orchid.png') no-repeat 0px 500px;
+}
+.wrapperRight li {
+	border-bottom: 1px dotted #000;;
+}
+.lowerList {
+    display: inline-block;
+    border: 1px solid #EEEEEE;
+    margin: 0px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 1.4em;
+}
+.lowerList a {
+	color: #999999;
+	text-decoration: none;
+}
+.lowerList:hover {
+	background-color: #E8E8E8;
+}
+.bullet {
+	height: 8px;
+	padding: 3px 0 3px 20px;
+    background: url("images/bullet.png") no-repeat 2% 46%;
+}
+.by {
+	font-size: 10px;
+    color: #999999;
+    margin-left: 20px;
+}
+.afterBy {
+	color: #999999;
+	letter-spacing: -1px;
+    font-size: 10px;
+    line-height: 16px;
+}
