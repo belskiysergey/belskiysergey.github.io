@@ -4,7 +4,15 @@ html, body {
     margin: 0px;
     padding: 0px;
 }
-.wrapper {
-	margin: 0 auto;
-	width: 
+ul {
+	margin: 0;
+	padding: 0;
 }
+.wrapper {}
+.bx-wrapper .bx-viewport {
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0);
